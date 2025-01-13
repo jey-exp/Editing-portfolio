@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 import logo from "../public/logo.svg"
+import Modal from './Modal'
 
 const Navbar = () => {
   return (
-    <div className='h-10rem w-full flex justify-between items-center py-5'>
+    <div className='h-10rem max-w-screen flex justify-evenly items-center py-5'>
         <div className="logo">
             <Image src={logo} height={25} width={50} alt='Jey'/>
         </div>
@@ -12,9 +13,7 @@ const Navbar = () => {
           Witness the paradise
         </div>
         <div className="work">
-            <div className='text-white font-light py-1 px-4 rounded-lg custom-border iframe-shadow'>
-                Work
-            </div>
+            <button className='btn'>Work</button>
         </div>
     </div>
   )

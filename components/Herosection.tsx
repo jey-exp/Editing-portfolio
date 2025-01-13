@@ -10,14 +10,14 @@ const Herosection = () => {
   return (
     <div className={`${mynerve.className} flex gap-5 justify-between pt-20 px-5`}>
       <div className='leftPart'>
-            <div className='text-6xl text-custom-text-color pb-5'>
+            <div className='text-6xl text-custom-text-color pb-5 textHighlight-shadow'>
                 Welcome to my
             </div>
             <div className='flex gap-5 items-center mb-10'>
-                <div className='text-7xl'>
+                <div className='text-7xl textHighlight-shadow'>
                     Editing
                 </div>
-                <div className='text-6xl text-custom-text-color'>
+                <div className='text-6xl text-custom-text-color textHighlight-shadow'>
                     Room
                 </div>
             </div>
