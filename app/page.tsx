@@ -8,13 +8,13 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center w-screen">
-      <div className="bg-gradient-to-b from-custom-top  to-custom-bottom h-screen flex flex-col items-center relative w-screen">
-        <div className="custom-screen-width">
+    <div className="flex flex-col items-center w-full">
+      <div className="bg-gradient-to-b from-custom-top  to-custom-bottom h-screen flex flex-col items-center relative min-w-full">
+        <div className="custom-screen-width px-5 md:px-0">
           <Navbar />
           <Herosection />
-          <div className="mt-20 h-auto">
-            <div className="flex justify-center">
+          <div className="lg:mt-20 h-auto ">
+            <div className="flex justify-center text-center">
               <span>
                 The recipe is made is heaven to take the experience to the hell
                 (:
@@ -27,7 +27,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-cusom-bottom w-screen bg-custom-bottom flex flex-col items-center">
+      <div className="bg-cusom-bottom min-w-full bg-custom-bottom flex flex-col items-center">
         <VideoSection />
       </div>
       <Footer />

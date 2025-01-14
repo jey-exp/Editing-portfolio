@@ -21,8 +21,10 @@ body {
   margin: 0;
   padding: 0;
 }
-.custom-screen-width{
-  width: 85rem;
+@media (min-width: 768px) {
+  .custom-screen-width {
+    width: calc(100% - 25vw);
+  }
 }
 .custom-border {
   border:double 2px transparent;
@@ -48,8 +50,20 @@ body {
   border-right: 2px dashed #ffffff;
   box-shadow: 0 1px 15px 2px #ffffffad;
 }
-.video-section-aligment-width-right-component{
-  width: 40%;
+.horizontal-divider{
+  width: 80%;
+  border-bottom: 2px dashed #ffffff;
+  box-shadow: 0 1px 15px 2px #ffffffad;
+}
+@media (min-width:256px) {
+  .video-section-aligment-width-right-component{
+    width: 80%;
+  }
+}
+@media (min-width:768px) {
+  .video-section-aligment-width-right-component{
+    width: 40%;
+  }
 }
 .footer-divider{
   width: 100%;

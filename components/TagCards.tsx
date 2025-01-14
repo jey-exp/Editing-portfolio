@@ -9,7 +9,7 @@ interface TagCardProps {
 
 const TagCards : React.FC<TagCardProps> = ({name}) => {
   return (
-    <div className={`w-auto h-10 bg-custom-card-bg px-7 py-2  ${mynerve.className} text-m curveEdges`}>
+    <div className={`w-auto h-10 bg-custom-card-bg px-7 py-2  ${mynerve.className} text-m curveEdges text-center`}>
       {name}
     </div>
   )
