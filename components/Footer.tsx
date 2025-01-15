@@ -11,8 +11,8 @@ const mynerve= Mynerve({subsets:["latin"], weight:["400"]});
 const Footer = () => {
   return (
     <div className="w-full h-full p-5 bg-custom-bottom flex flex-col items-center">
-      <div className="custom-screen-width rounded-lg bg-custom-footer-bg p-5 flex flex-col items-center">
-        <div className="flex flex-col items-center" style={{ width: "80%" }}>
+      <div className="custom-screen-width rounded-lg bg-custom-footer-bg p-2 md:p-5 flex flex-col items-center">
+        <div className="flex flex-col items-center" style={{ width: "90%" }}>
           <p className="textHighlight-shadow pb-2 font-bold text-center">
             I am Jey, hope you liked my editing style. It’s always pleasure to
             work with you!
