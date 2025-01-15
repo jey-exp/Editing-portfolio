@@ -131,3 +131,26 @@ body {
 .btn:hover {
   color: #000000;
 }
+/* Add to your styles/globals.css file */
+
+.wave-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #ff00f3, #00d4ff, #fffb00, #00ff83);
+  background-size: 400% 400%;
+  animation: wave-animation 10s ease infinite;
+  filter: blur(8px);
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
