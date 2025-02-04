@@ -31,12 +31,12 @@ const Herosection = () => {
             </h3>
           </div>
           <div className={`${montserrat.className} text-lg font-light mb-5`}>
-            <p>Be ready to witness my works. You are my testaments.</p>
-            <p>Always happy to collaborate with you.</p>
+            {/* <p>Be ready to witness my works. You are my testaments.</p> */}
+            <p>Always happy to collaborate with you!</p>
           </div>
           <div className={`${montserrat.className} text-lg font-light`}>
             <p>
-              I leverage my editing knowledge to solve your business solutions.
+              I leverage my editing knowledge to solve your business problem through engaging editing and story telling.
             </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Herosection = () => {
       <div className="rightPart lg:w-1/2 py-5 lg:py-20 overflow-hidden">
         <div className="relative w-full h-0 pb-[56.25%] rounded-lg overflow-hidden right-animation">
           <iframe
-            src="https://www.youtube.com/embed/2VhJgv1xGL8?si=MwBZORv_3-NaQFxh"
+            src="https://www.youtube.com/embed/u5U-2RDZm5g?si=CrNvRj79L98JeMy6"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             className="absolute top-0 left-0 w-full h-full rounded-lg iframe-shadow"

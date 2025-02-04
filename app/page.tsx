@@ -25,7 +25,7 @@ export default function Home() {
           <div className="lg:mt-20 h-auto ">
             <div className="flex justify-center text-center overflow-hidden">
               <span className="quote">
-                The recipe is made is heaven to take the experience to the hell
+                The recipe is made is heaven to take the experience to hell
                 (:
               </span>
             </div>

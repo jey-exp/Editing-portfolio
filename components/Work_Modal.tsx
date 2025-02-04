@@ -13,11 +13,11 @@ const montserrat = Montserrat({ subsets: ['latin'] });
 const Work_Modal = ({close}:Work_Modal_Props) => {
   return (
     <div className={`fixed inset-0 h-full w-full bg-black bg-opacity-55 z-50 flex justify-center items-center ${montserrat.className}`}>
-      <div className="p-7 lg:px-12 lg:pb-12 max-h-full max-w-full flex flex-col gap-5 rounded-lg bg-violet-950 bg-opacity-40 backdrop-blur-lg border border-neutral-400 border-opacity-40">
-        <h1 className={`font-bold text-center text-2xl ${mynerve.className}`}>
+      <div className="p-2 lg:px-12 lg:pb-12 max-h-full max-w-full flex flex-col gap-5 rounded-lg bg-violet-950 bg-opacity-40 backdrop-blur-lg border border-neutral-400 border-opacity-40">
+        <h1 className={`font-bold text-center text-xl md:text-2xl ${mynerve.className}`}>
           Need my service? Contact me:
         </h1>
-        <div className="flex justify-between p-2 items-center gap-3">
+        <div className="flex justify-between md:p-2 items-center gap-1 md:gap-3">
           <div className='space-y-2'>
             <p className="font-semibold">
               Email :{" "}
