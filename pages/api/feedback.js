@@ -1,4 +1,3 @@
-import mongoose from "mongoose";
 import connectDb from "../../libs/connect";
 import FeedBack from "../../libs/model/feedback";
 
